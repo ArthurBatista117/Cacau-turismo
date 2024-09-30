@@ -1,0 +1,173 @@
+*
+{
+    font-family: Calibri;
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    position: relative;
+    width: 93vw;
+}
+
+#topo a{
+    color:#aaaaaa;
+    font-size: 22px;
+    text-decoration: none;
+    margin-left:10px;
+
+}
+#topo a:hover
+{
+    color:#f3bb44;
+}
+
+#banner
+{
+    width: 106%;
+    height: 400px;
+    background-position: center;
+    background-image: url("imagens/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+#banner:hover
+{
+    opacity: 0.8;
+    cursor:pointer;
+}
+
+#sobre,#passeios
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+#sobre h1 ,#passeios h1
+{
+    color:#f3bb44;
+    font-size: 34px;
+    margin-top: 30px;
+}
+
+#sobre p
+{
+    color:#aaaaaa;
+    font-size:22px;
+    width:50%;
+    margin-left: 25%;
+}
+
+#videos
+{   
+    width: 100%;
+    text-align: center;
+}
+
+video,iframe
+{
+    width: 400px;
+    height: 230px;
+    display: inline-block; 
+    margin: 20px; 
+    border-radius: 20px;
+}
+
+div.card{
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.411);
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    height: 320px;
+}
+
+div.card > p, h2, button{
+    text-align: justify;
+    padding: 10px;
+}
+
+div.card > p{
+    margin-top: -10px;
+}
+
+div.card > img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+div.card > button{
+    background-color: #ffae00;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 200px;
+    border: none;
+    font-weight: bolder;
+}
+
+div#tabela{
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-bottom: 700px;
+}
+
+div#tabela > table{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div#tabela table{
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 30px;
+    border: 1px solid #E0E0E0;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+
+div#tabela tr{
+    border: 1px solid #E0E0E0;
+}
+
+div#tabela table  img{
+    float: left;
+    border-radius: 10px;
+    width: 80px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+div#tabela table h3{
+    margin-left: 140px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+div#tabela table  h3:hover{
+    font-size: 22px;
+}
+
+div#tabela table p{
+    font-size: 15px;
+    margin-left: 140px;
+    margin-top: 0px;
+}
+
+div#transfers > h2{
+    color: #f3bb44;
+    text-align: center;
+}
+
+div#transfers > p{
+    text-align: center;
+    padding-bottom: 10px;
+}
